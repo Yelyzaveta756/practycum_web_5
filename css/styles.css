@@ -207,7 +207,7 @@ header {
     font-weight: 400;
     line-height: 1.6; 
     letter-spacing: 0.06em;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .menu-button {
@@ -235,7 +235,6 @@ header {
 }
 
 .arrow-container {
-    position: relative;
     display: flex;
     flex-direction: column;
     max-width: 330px;
@@ -274,6 +273,11 @@ header {
 
 /* Popular Donut (section 2) - Home Page */
 
+.popular-container {
+    text-align: center;
+    min-width: 400px;
+}
+
 .popular-title {
     font-size: 45px;
     margin-bottom: 15px;
@@ -293,6 +297,8 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
 }
 
 .popular-donut-item {
@@ -321,8 +327,9 @@ header {
     .hero-image-text {
         display: inline-block;
     }
+
     .hero-paragraph {
-        padding-bottom: 10px;
+        padding-top: 10px;
     }
 
     .arrow-container {
@@ -336,6 +343,10 @@ header {
     .popular-donut-list {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .popular-container {
+        min-width: 0;
     }
 
     .popular-donut-item:last-child {
@@ -610,3 +621,25 @@ footer .logo {
         font-size: 18px;
     }
 }
+
+
+/* Temporary changes */
+
+.temporary-container {
+    text-align: start;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.calculation-button {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 243, 254);
+    padding: 10px;
+    background: linear-gradient(to right, #cc99ff 0%, #ff66cc 100%);
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+}
+
