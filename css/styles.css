@@ -630,6 +630,9 @@ footer .logo {
     margin-bottom: 10px;
     font-size: 20px;
     margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #727272;
+    border-radius: 8px;
 }
 
 .calculation-button {
@@ -641,5 +644,9 @@ footer .logo {
     border-radius: 20px;
     border: none;
     margin-top: 10px;
+}
+
+.form-input {
+    border: 1px solid #ccc
 }
 
