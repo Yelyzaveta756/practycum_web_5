@@ -336,10 +336,6 @@ header {
         margin-top: 0;
     }
 
-    .arrow-container {
-        display: none;
-    }
-
     .popular-donut-list {
         flex-direction: column;
         gap: 10px;

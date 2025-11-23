@@ -91,7 +91,7 @@ function addImageToPage(imageData) {
   const imageHTML = `
      <div class="added-image" data-image-id="${imageData.id}" style="margin: 20px auto; text-align: center;">
                 <img src="${imageData.url}" alt="Beautiful image" 
-                     style="max-width: 300px; height: auto; border-radius: 8px; border: 2px solid #eee;">
+                     style="border-radius: 8px; border: 2px solid #eee;">
                 <div style="margin-top: 10px;">
                     <button onclick="removeImage('${imageData.id}')" 
                             style="padding: 5px 15px; background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer;">
